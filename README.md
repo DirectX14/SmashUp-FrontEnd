@@ -1,2 +1,1 @@
-# SmashUp-FrontEnd
-FrontEnd of "SmashUp.ru"
+# Документация: [GitHub](https://github.com/LeonidMem/SmashUp-FrontEnd/wiki)
