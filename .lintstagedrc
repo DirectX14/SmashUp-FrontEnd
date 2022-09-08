@@ -1,0 +1,10 @@
+{
+  "./src/*.{js,vue}": [
+    "eslint --fix",
+    "git add"
+  ],
+  "./src/*.{vue,scss,css}": [
+    "stylelint --fix",
+    "git add"
+  ]
+}
