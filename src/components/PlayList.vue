@@ -1,15 +1,11 @@
 <template>
   <div class="read">
-    123
+    Плейлист
   </div>
 </template>
 
-<script>
-  
-</script>
-
 <style scoped>
 .read {
-  color: #888;
+  color: rgb(5, 255, 151);
 }
 </style>
