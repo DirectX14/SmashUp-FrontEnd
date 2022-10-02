@@ -2,6 +2,7 @@
   <div class="read">
     Плейлист
   </div>
+  <a href="#/"> Главная </a>
 </template>
 
 <style scoped>
