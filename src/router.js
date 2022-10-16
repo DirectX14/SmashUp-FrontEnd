@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import MainPage from "./components/MainPage.vue";
-import PlayList from "./components/PlayList.vue";
+import MainPage from "./pages/MainPage.vue";
+import PlayList from "./pages/PlayList.vue";
 
 export default createRouter({
   history: createWebHashHistory(),
