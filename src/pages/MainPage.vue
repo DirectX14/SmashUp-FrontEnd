@@ -1,8 +1,6 @@
 <template>
   <div class="main-container">
-    <a href="#/playlist">
-      <v-card/>
-    </a>
+    <v-card href="playlist"/>
   </div>
 </template>
 
@@ -21,10 +19,6 @@
     width: 100%;
     height: 100vh;
     background-color: black;
-
-    & a {
-      text-decoration: none;
-    }
   }
 }
 </style>
