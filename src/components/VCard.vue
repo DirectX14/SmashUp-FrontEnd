@@ -20,10 +20,11 @@
   </div>
 </template>
 <script>
+  import { PROP_TYPE_STRING } from "../utils/constants/props";
   export default {
     props: {
       href: {
-        type: String,
+        type: PROP_TYPE_STRING,
         default: ''
       }
     },
