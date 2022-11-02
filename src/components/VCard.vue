@@ -30,12 +30,12 @@
     },
     computed: {
       link () {
-        return `#/${this.href}`;
+        return `/${this.href}`;
       }
     }
   };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .card {
   width: 240px;
   height: 300px;
@@ -44,7 +44,7 @@
 
   font-size: 16px;
   line-height: 19px;
-  color: #EBEBEB;
+  color: var(--color-onsurface);
   font-family: 'Inter', sans-serif;
 
   &-autor {
@@ -67,7 +67,7 @@
     font-weight: 600;
 
     &-link {
-      color: #EBEBEB;
+      color: var(--color-onsurface);
       text-decoration: none;
       margin: 0 25px;
     }
